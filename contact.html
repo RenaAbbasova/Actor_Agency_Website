@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Vanessa</title>
+  <meta name="description" content="Escribe a la agencia Vanessa para consultas de casting o para solicitar representación.">
+  <meta name="theme-color" content="#94408d">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>try{var t=localStorage.getItem("theme");if(!t&&window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)t="dark";if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo__brand">Vanessa</span>
+      <span class="logo__tag" lang="en">actor representation agency</span>
+      <span class="logo__sub" lang="en">perfect to scale</span>
+    </a>
+    <nav class="nav" aria-label="Principal"><ul><li><a href="index.html">Inicio</a></li><li><a href="about.html">Nosotros</a></li><li><a href="actores.html">Actores</a></li><li><a href="casting.html">Casting</a></li><li><a href="contact.html" aria-current="page">Contacto</a></li></ul></nav>
+    <div class="header-actions">
+      <a class="signin" href="login.html">Acceder</a>
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Cambiar a modo oscuro"><svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg><svg class="icon-on" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg></button>
+    </div>
+  </header>
+  <main id="contenido">
+    <div class="form-card">
+      <h1>Escríbenos</h1>
+      <p class="lead">Para consultas de casting o solicitudes de representación. Esta es una demostración: el mensaje no se envía a ningún sitio.</p>
+      <form data-demo="Gracias. Esto es una demostración, así que tu mensaje no se ha enviado.">
+        <div class="row-2">
+          <div class="field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="given-name" required></div>
+          <div class="field"><label for="apellidos">Apellidos</label><input id="apellidos" name="apellidos" type="text" autocomplete="family-name" required></div>
+        </div>
+        <div class="field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required></div>
+        <div class="field"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="6" required></textarea></div>
+        <button class="button" type="submit">Enviar mensaje</button>
+        <p class="form-status" role="status" hidden></p>
+      </form>
+    </div>
+    <section class="map-section" aria-labelledby="mapa">
+      <h2 id="mapa">Dónde estamos</h2>
+      <p class="lead">Pamplona, Navarra (ubicación de ejemplo).</p>
+      <iframe title="Mapa de Pamplona, Navarra" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-1.6600%2C42.8100%2C-1.6280%2C42.8270&amp;layer=mapnik&amp;marker=42.8185%2C-1.6442"></iframe>
+    </section>
+  </main>
+  
+  <footer class="site-footer">
+    <p>Vanessa · Representación de actores · Sitio de demostración con perfiles ficticios e ilustraciones originales.</p>
+    <p>Proyecto final del módulo de HTML y CSS · Albañiles Digitales – Software Builders.</p>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
